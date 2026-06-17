@@ -3,27 +3,21 @@ import { createFileRoute } from "@tanstack/react-router";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Your App" },
-      { name: "description", content: "Replace this with a one-sentence description of your app." },
-      { property: "og:title", content: "Your App" },
-      { property: "og:description", content: "Replace this with a one-sentence description of your app." },
+      { title: "International Diabolo Federation 国际扯铃联盟" },
+      { name: "description", content: "Promoting the sport of Diabolo globally — 15 associations across China, Malaysia, Taiwan, Japan and Macau." },
+      { property: "og:title", content: "International Diabolo Federation" },
+      { property: "og:description", content: "Promoting the sport of Diabolo globally." },
     ],
   }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
 function Index() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
-    </div>
+    <iframe
+      src="/site/index.html"
+      title="International Diabolo Federation"
+      style={{ position: "fixed", inset: 0, width: "100%", height: "100%", border: 0 }}
+    />
   );
 }
