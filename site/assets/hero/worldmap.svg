@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 800" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#fff7ed"/>
+      <stop offset="100%" stop-color="#fef2f2"/>
+    </linearGradient>
+    <pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#cbd5e1"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="800" fill="url(#bg)"/>
+  <rect width="1600" height="800" fill="url(#dots)" opacity="0.55"/>
+  <g fill="#0f172a" opacity="0.06">
+    <ellipse cx="380" cy="380" rx="180" ry="110"/>
+    <ellipse cx="780" cy="340" rx="260" ry="150"/>
+    <ellipse cx="1180" cy="380" rx="220" ry="130"/>
+    <ellipse cx="900" cy="560" rx="120" ry="60"/>
+    <ellipse cx="1320" cy="560" rx="80" ry="40"/>
+  </g>
+  <g fill="#e11d48">
+    <circle cx="1180" cy="340" r="6"/>   <!-- China -->
+    <circle cx="1230" cy="380" r="6"/>   <!-- Taiwan -->
+    <circle cx="1190" cy="500" r="6"/>   <!-- Malaysia -->
+    <circle cx="1300" cy="330" r="6"/>   <!-- Japan -->
+    <circle cx="1210" cy="370" r="6"/>   <!-- Macau -->
+  </g>
+</svg>
