@@ -239,41 +239,41 @@ const I18N = {
 
 // Member associations (logos go in site/assets/logos/, named below)
 const MEMBERS = [
-  { logo: "assets/logos/zj-jinhua.png",    name: { en: "Jinhua Diabolo Sports Association, Zhejiang", "zh-CN": "浙江省金华市空竹运动协会", "zh-TW": "浙江省金華市空竹運動協會" } },
-  { logo: "assets/logos/sc-sichuan.png",   name: { en: "Sichuan Diabolo Sports Association",          "zh-CN": "四川省空竹运动协会",         "zh-TW": "四川省空竹運動協會" } },
-  { logo: "assets/logos/sc-chengdu.png",   name: { en: "Chengdu Diabolo Sports Association, Sichuan", "zh-CN": "四川省成都市空竹运动协会",   "zh-TW": "四川省成都市空竹運動協會" } },
-  { logo: "assets/logos/js-rudong.png",    name: { en: "Rudong Diabolo Sports Association, Jiangsu",  "zh-CN": "江苏省南通市如东县空竹运动协会","zh-TW": "江蘇省南通市如東縣空竹運動協會" } },
-  { logo: "assets/logos/js-changshu.png",  name: { en: "Changshu Diabolo Sports Association, Jiangsu","zh-CN": "江苏省常熟市空竹运动协会",   "zh-TW": "江蘇省常熟市空竹運動協會" } },
-  { logo: "assets/logos/my-selangor.png",  name: { en: "Selangor Diabolo Association",                "zh-CN": "雪兰莪州扯铃协会",           "zh-TW": "雪蘭莪州扯鈴協會" } },
-  { logo: "assets/logos/my-kl.png",        name: { en: "Kuala Lumpur Diabolo Association",            "zh-CN": "吉隆坡扯铃协会",             "zh-TW": "吉隆坡扯鈴協會" } },
-  { logo: "assets/logos/my-sabah.png",     name: { en: "Sabah Diabolo Association",                   "zh-CN": "沙巴扯铃协会",               "zh-TW": "沙巴扯鈴協會" } },
-  { logo: "assets/logos/my-melaka.png",    name: { en: "Melaka Diabolo Association",                  "zh-CN": "马六甲扯铃协会",             "zh-TW": "馬六甲扯鈴協會" } },
-  { logo: "assets/logos/cl-conglin.png",   name: { en: "Cong Ling Arts Promotion Association",        "zh-CN": "从铃开始传艺推广协会",       "zh-TW": "從鈴開始傳藝推廣協會" } },
-  { logo: "assets/logos/tw-ntpc.png",      name: { en: "New Taipei City Diabolo Association",         "zh-CN": "新北市扯铃协会",             "zh-TW": "新北市扯鈴協會" } },
-  { logo: "assets/logos/tw-taichung.png",  name: { en: "Taichung Diabolo Association",                "zh-CN": "台中市扯铃协会",             "zh-TW": "台中市扯鈴協會" } },
-  { logo: "assets/logos/tw-kaohsiung.png", name: { en: "Kaohsiung Diabolo Association",               "zh-CN": "高雄市扯铃协会",             "zh-TW": "高雄市扯鈴協會" } },
-  { logo: "assets/logos/jp-japan.png",     name: { en: "Japan Diabolo Association",                   "zh-CN": "日本扯铃协会",               "zh-TW": "日本扯鈴協會" } },
-  { logo: "assets/logos/mo-macau.png",     name: { en: "Macau Diabolo Sports Association",            "zh-CN": "澳门扯铃运动协会",           "zh-TW": "澳門扯鈴運動協會" } }
+  { logo: "assets/logos/zj-jinhua.webp",    name: { en: "Jinhua Diabolo Sports Association, Zhejiang", "zh-CN": "浙江省金华市空竹运动协会", "zh-TW": "浙江省金華市空竹運動協會" } },
+  { logo: "assets/logos/sc-sichuan.webp",   name: { en: "Sichuan Diabolo Sports Association",          "zh-CN": "四川省空竹运动协会",         "zh-TW": "四川省空竹運動協會" } },
+  { logo: "assets/logos/sc-chengdu.webp",   name: { en: "Chengdu Diabolo Sports Association, Sichuan", "zh-CN": "四川省成都市空竹运动协会",   "zh-TW": "四川省成都市空竹運動協會" } },
+  { logo: "assets/logos/js-rudong.png",     name: { en: "Rudong Diabolo Sports Association, Jiangsu",  "zh-CN": "江苏省南通市如东县空竹运动协会","zh-TW": "江蘇省南通市如東縣空竹運動協會" } },
+  { logo: "assets/logos/js-changshu.png",   name: { en: "Changshu Diabolo Sports Association, Jiangsu","zh-CN": "江苏省常熟市空竹运动协会",   "zh-TW": "江蘇省常熟市空竹運動協會" } },
+  { logo: "assets/logos/my-selangor.webp",  name: { en: "Selangor Diabolo Association",                "zh-CN": "雪兰莪州扯铃协会",           "zh-TW": "雪蘭莪州扯鈴協會" } },
+  { logo: "assets/logos/my-kl.webp",        name: { en: "Kuala Lumpur Diabolo Association",            "zh-CN": "吉隆坡扯铃协会",             "zh-TW": "吉隆坡扯鈴協會" } },
+  { logo: "assets/logos/my-sabah.webp",     name: { en: "Sabah Diabolo Association",                   "zh-CN": "沙巴扯铃协会",               "zh-TW": "沙巴扯鈴協會" } },
+  { logo: "assets/logos/my-melaka.webp",    name: { en: "Melaka Diabolo Association",                  "zh-CN": "马六甲扯铃协会",             "zh-TW": "馬六甲扯鈴協會" } },
+  { logo: "assets/logos/cl-conglin.webp",   name: { en: "Cong Ling Arts Promotion Association",        "zh-CN": "从铃开始传艺推广协会",       "zh-TW": "從鈴開始傳藝推廣協會" } },
+  { logo: "assets/logos/tw-ntpc.webp",      name: { en: "New Taipei City Diabolo Association",         "zh-CN": "新北市扯铃协会",             "zh-TW": "新北市扯鈴協會" } },
+  { logo: "assets/logos/tw-taichung.webp",  name: { en: "Taichung Diabolo Association",                "zh-CN": "台中市扯铃协会",             "zh-TW": "台中市扯鈴協會" } },
+  { logo: "assets/logos/tw-kaohsiung.webp", name: { en: "Kaohsiung Diabolo Association",               "zh-CN": "高雄市扯铃协会",             "zh-TW": "高雄市扯鈴協會" } },
+  { logo: "assets/logos/jp-japan.webp",     name: { en: "Japan Diabolo Association",                   "zh-CN": "日本扯铃协会",               "zh-TW": "日本扯鈴協會" } },
+  { logo: "assets/logos/mo-macau.webp",     name: { en: "Macau Diabolo Sports Association",            "zh-CN": "澳门扯铃运动协会",           "zh-TW": "澳門扯鈴運動協會" } }
 ];
 
 // IDT tournaments (drop photos in assets/idt/<id>/)
 const TOURNAMENTS = [
-  { id: "2016-tidt",  year: "2016", code: "TIDT",  title: { en: "Taiwan International Diabolo Tournament",          "zh-CN": "台湾国际扯铃邀请赛",   "zh-TW": "台灣國際扯鈴邀請賽" } },
-  { id: "2017-cjidt", year: "2017", code: "CJIDT", title: { en: "China Jinhua International Diabolo Tournament",    "zh-CN": "中国金华国际空竹邀请赛","zh-TW": "中國金華國際空竹邀請賽" } },
-  { id: "2018-ccidt", year: "2018", code: "CCIDT", title: { en: "China Chengdu International Diabolo Tournament",   "zh-CN": "中国成都国际空竹大赛", "zh-TW": "中國成都國際空竹大賽" } },
-  { id: "2019-msidt", year: "2019", code: "MSIDT", title: { en: "Malaysia Sabah International Diabolo Tournament",  "zh-CN": "马来西亚沙巴国际扯铃大赛","zh-TW": "馬來西亞沙巴國際扯鈴大賽" } },
-  { id: "2024-midt",  year: "2024", code: "MIDT",  title: { en: "Malaysia International Diabolo Tournament",        "zh-CN": "马来西亚国际扯铃大赛", "zh-TW": "馬來西亞國際扯鈴大賽" } },
-  { id: "2025-tidt",  year: "2025", code: "TIDT",  title: { en: "Taiwan International Diabolo Tournament",          "zh-CN": "台湾国际扯铃大赛",     "zh-TW": "台灣國際扯鈴大賽" } },
-  { id: "2026-cxidt", year: "2026", code: "CXIDT", title: { en: "China Xiamen International Diabolo Tournament",    "zh-CN": "中国厦门国际扯铃大赛", "zh-TW": "中國廈門國際扯鈴大賽" } }
+  { id: "2016-tidt",  year: "2016", code: "TIDT",  gallery: ["1.webp"],                                                  title: { en: "Taiwan International Diabolo Tournament",          "zh-CN": "台湾国际扯铃邀请赛",   "zh-TW": "台灣國際扯鈴邀請賽" } },
+  { id: "2017-cjidt", year: "2017", code: "CJIDT", gallery: ["1.jpg","2.jpg","3.jpg"],                                  title: { en: "China Jinhua International Diabolo Tournament",    "zh-CN": "中国金华国际空竹邀请赛","zh-TW": "中國金華國際空竹邀請賽" } },
+  { id: "2018-ccidt", year: "2018", code: "CCIDT", gallery: ["1.webp","2.webp"],                                        title: { en: "China Chengdu International Diabolo Tournament",   "zh-CN": "中国成都国际空竹大赛", "zh-TW": "中國成都國際空竹大賽" } },
+  { id: "2019-msidt", year: "2019", code: "MSIDT", gallery: ["1.webp","2.webp"],                                        title: { en: "Malaysia Sabah International Diabolo Tournament",  "zh-CN": "马来西亚沙巴国际扯铃大赛","zh-TW": "馬來西亞沙巴國際扯鈴大賽" } },
+  { id: "2024-midt",  year: "2024", code: "MIDT",  gallery: ["1.webp","2.webp","3.webp","4.webp","5.webp","6.webp","7.webp","8.webp"], title: { en: "Malaysia International Diabolo Tournament",        "zh-CN": "马来西亚国际扯铃大赛", "zh-TW": "馬來西亞國際扯鈴大賽" } },
+  { id: "2025-tidt",  year: "2025", code: "TIDT",  gallery: ["1.webp","2.webp","3.webp","4.webp","5.webp"],            title: { en: "Taiwan International Diabolo Tournament",          "zh-CN": "台湾国际扯铃大赛",     "zh-TW": "台灣國際扯鈴大賽" } },
+  { id: "2026-cxidt", year: "2026", code: "CXIDT", gallery: [],                                                          title: { en: "China Xiamen International Diabolo Tournament",    "zh-CN": "中国厦门国际扯铃大赛", "zh-TW": "中國廈門國際扯鈴大賽" } }
 ];
 
 // Grading events — add new entries here as they come
 const GRADING_EVENTS = [
-  { id: "2024-12-30-my-seminar",   date: "2024.12.30", title: { en: "International Diabolo Grading Test Seminar (Malaysia)",        "zh-CN": "马来西亚级位检定师研习",       "zh-TW": "馬來西亞級位檢定師研習" } },
-  { id: "2025-05-04-my-grading",   date: "2025.05.04", title: { en: "Malaysia Diabolo Grading Test",                                "zh-CN": "马来西亚级段位检定大会",       "zh-TW": "馬來西亞級段位檢定大會" } },
-  { id: "2025-06-24-tw-seminar",   date: "2025.06.24", title: { en: "International Diabolo Grading Test Seminar (Taiwan NTPC)",     "zh-CN": "台湾新北市级位检定师研习",     "zh-TW": "台灣新北市級位檢定師研習" } },
-  { id: "2025-09-21-my-grading",   date: "2025.09.21", title: { en: "Malaysia Diabolo Grading Test",                                "zh-CN": "马来西亚级段位检定大会",       "zh-TW": "馬來西亞級段位檢定大會" } },
-  { id: "2026-03-29-my-grading",   date: "2026.03.29", title: { en: "Malaysia Diabolo Grading Test",                                "zh-CN": "马来西亚级段位检定大会",       "zh-TW": "馬來西亞級段位檢定大會" } }
+  { id: "2024-12-30-my-seminar",   date: "2024.12.30", gallery: ["1.webp","2.webp","3.webp"],                          title: { en: "International Diabolo Grading Test Seminar (Malaysia)",        "zh-CN": "马来西亚级位检定师研习",       "zh-TW": "馬來西亞級位檢定師研習" } },
+  { id: "2025-05-04-my-grading",   date: "2025.05.04", gallery: ["1.webp","2.webp","3.webp","4.webp","5.webp"],        title: { en: "Malaysia Diabolo Grading Test",                                "zh-CN": "马来西亚级段位检定大会",       "zh-TW": "馬來西亞級段位檢定大會" } },
+  { id: "2025-06-24-tw-seminar",   date: "2025.06.24", gallery: ["1.webp","2.webp"],                                    title: { en: "International Diabolo Grading Test Seminar (Taiwan NTPC)",     "zh-CN": "台湾新北市级位检定师研习",     "zh-TW": "台灣新北市級位檢定師研習" } },
+  { id: "2025-09-21-my-grading",   date: "2025.09.21", gallery: ["1.webp","2.webp","3.webp","4.webp","5.webp"],        title: { en: "Malaysia Diabolo Grading Test",                                "zh-CN": "马来西亚级段位检定大会",       "zh-TW": "馬來西亞級段位檢定大會" } },
+  { id: "2026-03-29-my-grading",   date: "2026.03.29", gallery: ["1.webp","2.webp","3.webp","4.webp","5.webp"],        title: { en: "Malaysia Diabolo Grading Test",                                "zh-CN": "马来西亚级段位检定大会",       "zh-TW": "馬來西亞級段位檢定大會" } }
 ];
 
 // News posts — add new entries here. `content` can include simple HTML.
