@@ -27,19 +27,12 @@
 
   <!-- HERO -->
   <section class="relative overflow-hidden">
-    <div class="absolute inset-0">
-      <!-- Swap this image freely: replace src below -->
-      <img id="hero-image"
-           src="assets/hero/worldmap.svg"
-           alt="World map"
-           class="h-full w-full object-cover opacity-90"
-           onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Equirectangular_projection_SW.jpg/1280px-Equirectangular_projection_SW.jpg'">
-      <div class="absolute inset-0 bg-gradient-to-b from-white/70 via-white/40 to-white"></div>
-    </div>
-    <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-24 sm:py-32 lg:py-44 text-center">
-      <p class="text-xs font-semibold uppercase tracking-[0.2em] text-rose-600">Est. 2016</p>
-      <h1 class="mt-3 text-4xl font-bold tracking-tight text-slate-900 sm:text-6xl" data-i18n="hero.title"></h1>
-      <p class="mx-auto mt-5 max-w-2xl text-base text-slate-600 sm:text-lg" data-i18n="hero.tagline"></p>
+    <div id="hero-carousel" class="absolute inset-0"></div>
+    <div class="absolute inset-0 bg-gradient-to-b from-white/30 via-white/50 to-white"></div>
+    <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-28 sm:py-36 lg:py-48 text-center">
+      <p class="text-xs font-semibold uppercase tracking-[0.2em] text-rose-600 drop-shadow-sm">Est. 2016</p>
+      <h1 class="mt-3 text-4xl font-bold tracking-tight text-slate-900 sm:text-6xl drop-shadow-sm" data-i18n="hero.title"></h1>
+      <p class="mx-auto mt-5 max-w-2xl text-base text-slate-700 sm:text-lg" data-i18n="hero.tagline"></p>
       <div class="mt-8">
         <a href="#introduction" class="inline-flex items-center justify-center rounded-full bg-slate-900 px-6 py-3 text-sm font-medium text-white hover:bg-slate-700 transition" data-i18n="hero.cta"></a>
       </div>
@@ -178,6 +171,14 @@
 <footer id="site-footer" class="border-t border-slate-100 bg-white"></footer>
 
 <script src="js/i18n.js"></script>
-<script>bootPage('home');</script>
+<script>
+  bootPage('home');
+  initHeroCarousel([
+    'assets/hero/slide1.webp',
+    'assets/hero/slide2.webp',
+    'assets/hero/slide3.webp',
+    'assets/hero/world.webp'
+  ]);
+</script>
 </body>
 </html>
