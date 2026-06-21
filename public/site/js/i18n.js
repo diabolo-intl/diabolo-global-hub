@@ -239,41 +239,41 @@ const I18N = {
 
 // Member associations (logos go in site/assets/logos/, named below)
 const MEMBERS = [
-  { logo: "assets/logos/zj-jinhua.png",    name: { en: "Jinhua Diabolo Sports Association, Zhejiang", "zh-CN": "浙江省金华市空竹运动协会", "zh-TW": "浙江省金華市空竹運動協會" } },
-  { logo: "assets/logos/sc-sichuan.png",   name: { en: "Sichuan Diabolo Sports Association",          "zh-CN": "四川省空竹运动协会",         "zh-TW": "四川省空竹運動協會" } },
-  { logo: "assets/logos/sc-chengdu.png",   name: { en: "Chengdu Diabolo Sports Association, Sichuan", "zh-CN": "四川省成都市空竹运动协会",   "zh-TW": "四川省成都市空竹運動協會" } },
-  { logo: "assets/logos/js-rudong.png",    name: { en: "Rudong Diabolo Sports Association, Jiangsu",  "zh-CN": "江苏省南通市如东县空竹运动协会","zh-TW": "江蘇省南通市如東縣空竹運動協會" } },
-  { logo: "assets/logos/js-changshu.png",  name: { en: "Changshu Diabolo Sports Association, Jiangsu","zh-CN": "江苏省常熟市空竹运动协会",   "zh-TW": "江蘇省常熟市空竹運動協會" } },
-  { logo: "assets/logos/my-selangor.png",  name: { en: "Selangor Diabolo Association",                "zh-CN": "雪兰莪州扯铃协会",           "zh-TW": "雪蘭莪州扯鈴協會" } },
-  { logo: "assets/logos/my-kl.png",        name: { en: "Kuala Lumpur Diabolo Association",            "zh-CN": "吉隆坡扯铃协会",             "zh-TW": "吉隆坡扯鈴協會" } },
-  { logo: "assets/logos/my-sabah.png",     name: { en: "Sabah Diabolo Association",                   "zh-CN": "沙巴扯铃协会",               "zh-TW": "沙巴扯鈴協會" } },
-  { logo: "assets/logos/my-melaka.png",    name: { en: "Melaka Diabolo Association",                  "zh-CN": "马六甲扯铃协会",             "zh-TW": "馬六甲扯鈴協會" } },
-  { logo: "assets/logos/cl-conglin.png",   name: { en: "Cong Ling Arts Promotion Association",        "zh-CN": "从铃开始传艺推广协会",       "zh-TW": "從鈴開始傳藝推廣協會" } },
-  { logo: "assets/logos/tw-ntpc.png",      name: { en: "New Taipei City Diabolo Association",         "zh-CN": "新北市扯铃协会",             "zh-TW": "新北市扯鈴協會" } },
-  { logo: "assets/logos/tw-taichung.png",  name: { en: "Taichung Diabolo Association",                "zh-CN": "台中市扯铃协会",             "zh-TW": "台中市扯鈴協會" } },
-  { logo: "assets/logos/tw-kaohsiung.png", name: { en: "Kaohsiung Diabolo Association",               "zh-CN": "高雄市扯铃协会",             "zh-TW": "高雄市扯鈴協會" } },
-  { logo: "assets/logos/jp-japan.png",     name: { en: "Japan Diabolo Association",                   "zh-CN": "日本扯铃协会",               "zh-TW": "日本扯鈴協會" } },
-  { logo: "assets/logos/mo-macau.png",     name: { en: "Macau Diabolo Sports Association",            "zh-CN": "澳门扯铃运动协会",           "zh-TW": "澳門扯鈴運動協會" } }
+  { logo: "assets/logos/zj-jinhua.webp",    name: { en: "Jinhua Diabolo Sports Association, Zhejiang", "zh-CN": "浙江省金华市空竹运动协会", "zh-TW": "浙江省金華市空竹運動協會" } },
+  { logo: "assets/logos/sc-sichuan.webp",   name: { en: "Sichuan Diabolo Sports Association",          "zh-CN": "四川省空竹运动协会",         "zh-TW": "四川省空竹運動協會" } },
+  { logo: "assets/logos/sc-chengdu.webp",   name: { en: "Chengdu Diabolo Sports Association, Sichuan", "zh-CN": "四川省成都市空竹运动协会",   "zh-TW": "四川省成都市空竹運動協會" } },
+  { logo: "assets/logos/js-rudong.png",     name: { en: "Rudong Diabolo Sports Association, Jiangsu",  "zh-CN": "江苏省南通市如东县空竹运动协会","zh-TW": "江蘇省南通市如東縣空竹運動協會" } },
+  { logo: "assets/logos/js-changshu.png",   name: { en: "Changshu Diabolo Sports Association, Jiangsu","zh-CN": "江苏省常熟市空竹运动协会",   "zh-TW": "江蘇省常熟市空竹運動協會" } },
+  { logo: "assets/logos/my-selangor.webp",  name: { en: "Selangor Diabolo Association",                "zh-CN": "雪兰莪州扯铃协会",           "zh-TW": "雪蘭莪州扯鈴協會" } },
+  { logo: "assets/logos/my-kl.webp",        name: { en: "Kuala Lumpur Diabolo Association",            "zh-CN": "吉隆坡扯铃协会",             "zh-TW": "吉隆坡扯鈴協會" } },
+  { logo: "assets/logos/my-sabah.webp",     name: { en: "Sabah Diabolo Association",                   "zh-CN": "沙巴扯铃协会",               "zh-TW": "沙巴扯鈴協會" } },
+  { logo: "assets/logos/my-melaka.webp",    name: { en: "Melaka Diabolo Association",                  "zh-CN": "马六甲扯铃协会",             "zh-TW": "馬六甲扯鈴協會" } },
+  { logo: "assets/logos/cl-conglin.webp",   name: { en: "Cong Ling Arts Promotion Association",        "zh-CN": "从铃开始传艺推广协会",       "zh-TW": "從鈴開始傳藝推廣協會" } },
+  { logo: "assets/logos/tw-ntpc.webp",      name: { en: "New Taipei City Diabolo Association",         "zh-CN": "新北市扯铃协会",             "zh-TW": "新北市扯鈴協會" } },
+  { logo: "assets/logos/tw-taichung.webp",  name: { en: "Taichung Diabolo Association",                "zh-CN": "台中市扯铃协会",             "zh-TW": "台中市扯鈴協會" } },
+  { logo: "assets/logos/tw-kaohsiung.webp", name: { en: "Kaohsiung Diabolo Association",               "zh-CN": "高雄市扯铃协会",             "zh-TW": "高雄市扯鈴協會" } },
+  { logo: "assets/logos/jp-japan.webp",     name: { en: "Japan Diabolo Association",                   "zh-CN": "日本扯铃协会",               "zh-TW": "日本扯鈴協會" } },
+  { logo: "assets/logos/mo-macau.webp",     name: { en: "Macau Diabolo Sports Association",            "zh-CN": "澳门扯铃运动协会",           "zh-TW": "澳門扯鈴運動協會" } }
 ];
 
 // IDT tournaments (drop photos in assets/idt/<id>/)
 const TOURNAMENTS = [
-  { id: "2016-tidt",  year: "2016", code: "TIDT",  title: { en: "Taiwan International Diabolo Tournament",          "zh-CN": "台湾国际扯铃邀请赛",   "zh-TW": "台灣國際扯鈴邀請賽" } },
-  { id: "2017-cjidt", year: "2017", code: "CJIDT", title: { en: "China Jinhua International Diabolo Tournament",    "zh-CN": "中国金华国际空竹邀请赛","zh-TW": "中國金華國際空竹邀請賽" } },
-  { id: "2018-ccidt", year: "2018", code: "CCIDT", title: { en: "China Chengdu International Diabolo Tournament",   "zh-CN": "中国成都国际空竹大赛", "zh-TW": "中國成都國際空竹大賽" } },
-  { id: "2019-msidt", year: "2019", code: "MSIDT", title: { en: "Malaysia Sabah International Diabolo Tournament",  "zh-CN": "马来西亚沙巴国际扯铃大赛","zh-TW": "馬來西亞沙巴國際扯鈴大賽" } },
-  { id: "2024-midt",  year: "2024", code: "MIDT",  title: { en: "Malaysia International Diabolo Tournament",        "zh-CN": "马来西亚国际扯铃大赛", "zh-TW": "馬來西亞國際扯鈴大賽" } },
-  { id: "2025-tidt",  year: "2025", code: "TIDT",  title: { en: "Taiwan International Diabolo Tournament",          "zh-CN": "台湾国际扯铃大赛",     "zh-TW": "台灣國際扯鈴大賽" } },
-  { id: "2026-cxidt", year: "2026", code: "CXIDT", title: { en: "China Xiamen International Diabolo Tournament",    "zh-CN": "中国厦门国际扯铃大赛", "zh-TW": "中國廈門國際扯鈴大賽" } }
+  { id: "2016-tidt",  year: "2016", code: "TIDT",  gallery: ["1.webp"],                                                  title: { en: "Taiwan International Diabolo Tournament",          "zh-CN": "台湾国际扯铃邀请赛",   "zh-TW": "台灣國際扯鈴邀請賽" } },
+  { id: "2017-cjidt", year: "2017", code: "CJIDT", gallery: ["1.jpg","2.jpg","3.jpg"],                                  title: { en: "China Jinhua International Diabolo Tournament",    "zh-CN": "中国金华国际空竹邀请赛","zh-TW": "中國金華國際空竹邀請賽" } },
+  { id: "2018-ccidt", year: "2018", code: "CCIDT", gallery: ["1.webp","2.webp"],                                        title: { en: "China Chengdu International Diabolo Tournament",   "zh-CN": "中国成都国际空竹大赛", "zh-TW": "中國成都國際空竹大賽" } },
+  { id: "2019-msidt", year: "2019", code: "MSIDT", gallery: ["1.webp","2.webp"],                                        title: { en: "Malaysia Sabah International Diabolo Tournament",  "zh-CN": "马来西亚沙巴国际扯铃大赛","zh-TW": "馬來西亞沙巴國際扯鈴大賽" } },
+  { id: "2024-midt",  year: "2024", code: "MIDT",  gallery: ["1.webp","2.webp","3.webp","4.webp","5.webp","6.webp","7.webp","8.webp"], title: { en: "Malaysia International Diabolo Tournament",        "zh-CN": "马来西亚国际扯铃大赛", "zh-TW": "馬來西亞國際扯鈴大賽" } },
+  { id: "2025-tidt",  year: "2025", code: "TIDT",  gallery: ["1.webp","2.webp","3.webp","4.webp","5.webp"],            title: { en: "Taiwan International Diabolo Tournament",          "zh-CN": "台湾国际扯铃大赛",     "zh-TW": "台灣國際扯鈴大賽" } },
+  { id: "2026-cxidt", year: "2026", code: "CXIDT", gallery: [],                                                          title: { en: "China Xiamen International Diabolo Tournament",    "zh-CN": "中国厦门国际扯铃大赛", "zh-TW": "中國廈門國際扯鈴大賽" } }
 ];
 
 // Grading events — add new entries here as they come
 const GRADING_EVENTS = [
-  { id: "2024-12-30-my-seminar",   date: "2024.12.30", title: { en: "International Diabolo Grading Test Seminar (Malaysia)",        "zh-CN": "马来西亚级位检定师研习",       "zh-TW": "馬來西亞級位檢定師研習" } },
-  { id: "2025-05-04-my-grading",   date: "2025.05.04", title: { en: "Malaysia Diabolo Grading Test",                                "zh-CN": "马来西亚级段位检定大会",       "zh-TW": "馬來西亞級段位檢定大會" } },
-  { id: "2025-06-24-tw-seminar",   date: "2025.06.24", title: { en: "International Diabolo Grading Test Seminar (Taiwan NTPC)",     "zh-CN": "台湾新北市级位检定师研习",     "zh-TW": "台灣新北市級位檢定師研習" } },
-  { id: "2025-09-21-my-grading",   date: "2025.09.21", title: { en: "Malaysia Diabolo Grading Test",                                "zh-CN": "马来西亚级段位检定大会",       "zh-TW": "馬來西亞級段位檢定大會" } },
-  { id: "2026-03-29-my-grading",   date: "2026.03.29", title: { en: "Malaysia Diabolo Grading Test",                                "zh-CN": "马来西亚级段位检定大会",       "zh-TW": "馬來西亞級段位檢定大會" } }
+  { id: "2024-12-30-my-seminar",   date: "2024.12.30", gallery: ["1.webp","2.webp","3.webp"],                          title: { en: "International Diabolo Grading Test Seminar (Malaysia)",        "zh-CN": "马来西亚级位检定师研习",       "zh-TW": "馬來西亞級位檢定師研習" } },
+  { id: "2025-05-04-my-grading",   date: "2025.05.04", gallery: ["1.webp","2.webp","3.webp","4.webp","5.webp"],        title: { en: "Malaysia Diabolo Grading Test",                                "zh-CN": "马来西亚级段位检定大会",       "zh-TW": "馬來西亞級段位檢定大會" } },
+  { id: "2025-06-24-tw-seminar",   date: "2025.06.24", gallery: ["1.webp","2.webp"],                                    title: { en: "International Diabolo Grading Test Seminar (Taiwan NTPC)",     "zh-CN": "台湾新北市级位检定师研习",     "zh-TW": "台灣新北市級位檢定師研習" } },
+  { id: "2025-09-21-my-grading",   date: "2025.09.21", gallery: ["1.webp","2.webp","3.webp","4.webp","5.webp"],        title: { en: "Malaysia Diabolo Grading Test",                                "zh-CN": "马来西亚级段位检定大会",       "zh-TW": "馬來西亞級段位檢定大會" } },
+  { id: "2026-03-29-my-grading",   date: "2026.03.29", gallery: ["1.webp","2.webp","3.webp","4.webp","5.webp"],        title: { en: "Malaysia Diabolo Grading Test",                                "zh-CN": "马来西亚级段位检定大会",       "zh-TW": "馬來西亞級段位檢定大會" } }
 ];
 
 // News posts — add new entries here. `content` can include simple HTML.
@@ -473,14 +473,17 @@ window.renderTournaments = function (lang) {
   const grid = document.getElementById("idt-grid");
   if (!grid) return;
   grid.innerHTML = TOURNAMENTS.map((tn) => `
-    <article class="overflow-hidden rounded-2xl border border-slate-100 bg-white transition hover:shadow-md">
-      <div class="relative aspect-[4/3] bg-gradient-to-br from-slate-100 to-slate-200">
-        <img src="assets/idt/${tn.id}/cover.jpg" alt="" class="h-full w-full object-cover" onerror="this.style.display='none'">
+    <article class="group overflow-hidden rounded-2xl border border-slate-100 bg-white transition hover:shadow-md ${tn.gallery && tn.gallery.length ? 'cursor-pointer' : ''}"
+             ${tn.gallery && tn.gallery.length ? `onclick="openAlbum('idt','${tn.id}', ${JSON.stringify(tn.gallery).replace(/"/g,'&quot;')}, '${(tn.title[lang]||tn.title.en).replace(/'/g,"\\'")}')"` : ''}>
+      <div class="relative aspect-[4/3] bg-gradient-to-br from-slate-100 to-slate-200 overflow-hidden">
+        <img src="assets/idt/${tn.id}/cover.jpg" alt="" class="h-full w-full object-cover transition duration-500 group-hover:scale-105" onerror="this.style.display='none'">
         <span class="absolute left-3 top-3 rounded-full bg-white/90 px-2.5 py-1 text-xs font-semibold tracking-wide text-slate-700">${tn.year} · ${tn.code}</span>
       </div>
       <div class="p-5">
         <h3 class="text-base font-semibold text-slate-900">${tn.title[lang] || tn.title.en}</h3>
-        <p class="mt-3 text-xs text-slate-400" data-i18n="idt.empty">${t("idt.empty", lang)}</p>
+        ${tn.gallery && tn.gallery.length
+          ? `<p class="mt-3 text-xs font-medium text-rose-600">${t("idt.album", lang)} →</p>`
+          : `<p class="mt-3 text-xs text-slate-400">${t("idt.empty", lang)}</p>`}
       </div>
     </article>
   `).join("");
@@ -490,17 +493,94 @@ window.renderGradingEvents = function (lang) {
   const grid = document.getElementById("grading-events-grid");
   if (!grid) return;
   grid.innerHTML = GRADING_EVENTS.map((ev) => `
-    <article class="overflow-hidden rounded-2xl border border-slate-100 bg-white transition hover:shadow-md">
-      <div class="relative aspect-[4/3] bg-gradient-to-br from-amber-50 to-rose-50">
-        <img src="assets/grading/${ev.id}/cover.jpg" alt="" class="h-full w-full object-cover" onerror="this.style.display='none'">
+    <article class="group overflow-hidden rounded-2xl border border-slate-100 bg-white transition hover:shadow-md ${ev.gallery && ev.gallery.length ? 'cursor-pointer' : ''}"
+             ${ev.gallery && ev.gallery.length ? `onclick="openAlbum('grading','${ev.id}', ${JSON.stringify(ev.gallery).replace(/"/g,'&quot;')}, '${(ev.title[lang]||ev.title.en).replace(/'/g,"\\'")}')"` : ''}>
+      <div class="relative aspect-[4/3] bg-gradient-to-br from-amber-50 to-rose-50 overflow-hidden">
+        <img src="assets/grading/${ev.id}/cover.jpg" alt="" class="h-full w-full object-cover transition duration-500 group-hover:scale-105" onerror="this.style.display='none'">
         <span class="absolute left-3 top-3 rounded-full bg-white/90 px-2.5 py-1 text-xs font-semibold text-slate-700">${ev.date}</span>
       </div>
       <div class="p-5">
         <h3 class="text-base font-semibold leading-snug text-slate-900">${ev.title[lang] || ev.title.en}</h3>
-        <p class="mt-3 text-xs text-slate-400" data-i18n="idt.empty">${t("idt.empty", lang)}</p>
+        ${ev.gallery && ev.gallery.length
+          ? `<p class="mt-3 text-xs font-medium text-rose-600">${t("grading.album", lang)} →</p>`
+          : `<p class="mt-3 text-xs text-slate-400">${t("idt.empty", lang)}</p>`}
       </div>
     </article>
   `).join("");
+};
+
+// ---------------------------------------------------------------------------
+// Album lightbox
+// ---------------------------------------------------------------------------
+window.openAlbum = function (kind, id, files, title) {
+  let idx = 0;
+  const overlay = document.createElement("div");
+  overlay.className = "fixed inset-0 z-50 flex flex-col bg-slate-950/95 backdrop-blur";
+  overlay.innerHTML = `
+    <div class="flex items-center justify-between px-4 py-3 text-white">
+      <p class="truncate text-sm font-medium">${title}</p>
+      <button id="album-close" class="rounded-md p-2 hover:bg-white/10" aria-label="Close">
+        <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 6l12 12M6 18L18 6"/></svg>
+      </button>
+    </div>
+    <div class="relative flex flex-1 items-center justify-center px-4 pb-4">
+      <button id="album-prev" class="absolute left-2 top-1/2 -translate-y-1/2 rounded-full bg-white/10 p-2 text-white hover:bg-white/20" aria-label="Previous">
+        <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
+      </button>
+      <img id="album-img" src="" alt="" class="max-h-full max-w-full rounded-lg object-contain shadow-2xl">
+      <button id="album-next" class="absolute right-2 top-1/2 -translate-y-1/2 rounded-full bg-white/10 p-2 text-white hover:bg-white/20" aria-label="Next">
+        <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+      </button>
+      <p id="album-count" class="absolute bottom-2 left-1/2 -translate-x-1/2 rounded-full bg-white/10 px-3 py-1 text-xs text-white"></p>
+    </div>`;
+  document.body.appendChild(overlay);
+  document.body.style.overflow = "hidden";
+
+  const img = overlay.querySelector("#album-img");
+  const count = overlay.querySelector("#album-count");
+  const show = () => {
+    img.src = `assets/${kind}/${id}/${files[idx]}`;
+    count.textContent = `${idx + 1} / ${files.length}`;
+  };
+  const close = () => { overlay.remove(); document.body.style.overflow = ""; document.removeEventListener("keydown", onKey); };
+  const onKey = (e) => {
+    if (e.key === "Escape") close();
+    else if (e.key === "ArrowLeft") { idx = (idx - 1 + files.length) % files.length; show(); }
+    else if (e.key === "ArrowRight") { idx = (idx + 1) % files.length; show(); }
+  };
+  overlay.querySelector("#album-close").onclick = close;
+  overlay.querySelector("#album-prev").onclick = (e) => { e.stopPropagation(); idx = (idx - 1 + files.length) % files.length; show(); };
+  overlay.querySelector("#album-next").onclick = (e) => { e.stopPropagation(); idx = (idx + 1) % files.length; show(); };
+  overlay.addEventListener("click", (e) => { if (e.target === overlay) close(); });
+  document.addEventListener("keydown", onKey);
+  show();
+};
+
+// ---------------------------------------------------------------------------
+// Hero carousel (home page)
+// ---------------------------------------------------------------------------
+window.initHeroCarousel = function (slides, interval = 5500) {
+  const root = document.getElementById("hero-carousel");
+  if (!root) return;
+  root.innerHTML = slides.map((src, i) => `
+    <img src="${src}" alt="" data-slide="${i}"
+         class="absolute inset-0 h-full w-full object-cover transition-opacity duration-1000 ${i === 0 ? 'opacity-100' : 'opacity-0'}">
+  `).join("") + `
+    <div class="absolute bottom-4 left-1/2 z-10 -translate-x-1/2 flex gap-1.5">
+      ${slides.map((_, i) => `<button type="button" data-dot="${i}" class="h-1.5 w-6 rounded-full bg-white/50 hover:bg-white/80 transition" aria-label="Slide ${i + 1}"></button>`).join("")}
+    </div>`;
+  let cur = 0;
+  const imgs = root.querySelectorAll("[data-slide]");
+  const dots = root.querySelectorAll("[data-dot]");
+  const go = (n) => {
+    imgs[cur].classList.replace("opacity-100", "opacity-0");
+    dots[cur].classList.replace("bg-white", "bg-white/50");
+    cur = (n + slides.length) % slides.length;
+    imgs[cur].classList.replace("opacity-0", "opacity-100");
+    dots[cur].classList.add("bg-white");
+  };
+  dots.forEach((d, i) => d.addEventListener("click", () => go(i)));
+  setInterval(() => go(cur + 1), interval);
 };
 
 // ---------------------------------------------------------------------------
