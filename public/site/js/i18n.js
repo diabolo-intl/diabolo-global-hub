@@ -71,7 +71,15 @@ const I18N = {
 
     "grading.title": "International Diabolo Grading",
     "grading.subtitle": "A structured pathway from beginner to professional",
-    "grading.intro.body": "The International Diabolo Federation and the Diabolo Association Kaohsiung have established a comprehensive grading system to transform diabolo from a traditional circus art into a globally recognised competitive sport. Developed over fourteen years, this structured framework uses step-by-step learning paths and measurable criteria to evaluate technical proficiency across various levels and ranks. The initiative aims to create a sustainable professional ecosystem by training qualified examiners and providing career advancement opportunities for coaches and students alike. Detailed records and statistical data demonstrate the historical success and financial viability of these examinations in Taiwan and Malaysia. Through strategic licensing and cooperation, the alliance seeks to standardise teaching methods and expand the sport's reach within the international community. Potential partners are encouraged to join this mission to foster talent development and elevate diabolo to the highest levels of athletic competition.",
+    "grading.intro.lede": "Jointly developed by the International Diabolo Federation and the Kaohsiung Diabolo Association, the grading system turns Diabolo from a traditional art into a globally recognised competitive sport.",
+    "grading.pillar.1.title": "14 years of development",
+    "grading.pillar.1.body": "A step-by-step learning path with measurable criteria evaluates technical skill across every level and rank.",
+    "grading.pillar.2.title": "A professional ecosystem",
+    "grading.pillar.2.body": "Certified examiners and clear career paths for coaches and students sustain the sport long-term.",
+    "grading.pillar.3.title": "Proven in the field",
+    "grading.pillar.3.body": "Records from Taiwan and Malaysia demonstrate strong outcomes and financial viability.",
+    "grading.pillar.4.title": "Open to partners",
+    "grading.pillar.4.body": "Through licensing and cooperation we standardise teaching and welcome new associations to join.",
     "grading.events.title": "Events",
     "grading.events.subtitle": "Past and upcoming grading events",
     "grading.album": "View album",
@@ -147,7 +155,15 @@ const I18N = {
 
     "grading.title": "国际扯铃级位检定",
     "grading.subtitle": "从初学到专业的完整路径",
-    "grading.intro.body": "国际扯铃联盟与高雄市扯铃协会共同建立了一套完整的级位检定系统，致力于将扯铃从传统的杂技艺术转化为受到全球认可的竞技运动。经过十四年的发展，本框架透过循序渐进的学习路径与可量化的评估标准，对各级别与段位的技术能力进行评定。本计划旨在透过培训合格检定员，并为教练与学员提供职涯发展机会，建立一个可持续的专业生态系统。详细的档案与统计数据已显示出此检定系统于台湾及马来西亚的历史成绩与财务可行性。联盟通过策略授权与合作，致力于统一教学方式，并扩展扯铃运动于国际社群中的影响力。我们诚邀有志之士共同加入这项使命，培育人才并将扯铃推向最高级别的竞技殿堂。",
+    "grading.intro.lede": "由国际扯铃联盟与高雄市扯铃协会共同打造，级位检定系统将扯铃从传统技艺转化为受国际认可的竞技运动。",
+    "grading.pillar.1.title": "十四年的累积",
+    "grading.pillar.1.body": "循序渐进的学习路径与可量化标准，全面评估各级别与段位的技术能力。",
+    "grading.pillar.2.title": "完整的专业生态",
+    "grading.pillar.2.body": "培训合格检定员，为教练与学员提供清晰的职涯发展路径，让运动得以长期发展。",
+    "grading.pillar.3.title": "成效有据可查",
+    "grading.pillar.3.body": "台湾与马来西亚的实施数据证明了本系统的成果与可持续运作。",
+    "grading.pillar.4.title": "诚邀合作伙伴",
+    "grading.pillar.4.body": "透过授权与合作统一教学方式，欢迎更多协会加入这项使命。",
     "grading.events.title": "活动",
     "grading.events.subtitle": "已举办及即将举办的级位检定活动",
     "grading.album": "查看相册",
@@ -223,7 +239,15 @@ const I18N = {
 
     "grading.title": "國際扯鈴級位檢定",
     "grading.subtitle": "從初學到專業的完整路徑",
-    "grading.intro.body": "國際扯鈴聯盟與高雄市扯鈴協會共同建立了一套完整的級位檢定系統，致力於將扯鈴從傳統的雜技藝術轉化為受到全球認可的競技運動。經過十四年的發展，本框架透過循序漸進的學習路徑與可量化的評估標準，對各級別與段位的技術能力進行評定。本計畫旨在透過培訓合格檢定員，並為教練與學員提供職涯發展機會，建立一個可持續的專業生態系統。詳細的檔案與統計數據已顯示出此檢定系統於台灣及馬來西亞的歷史成績與財務可行性。聯盟透過策略授權與合作，致力於統一教學方式，並擴展扯鈴運動於國際社群中的影響力。我們誠摯邀請有志之士共同加入這項使命，培育人才並將扯鈴推向最高級別的競技殿堂。",
+    "grading.intro.lede": "由國際扯鈴聯盟與高雄市扯鈴協會共同打造，級位檢定系統將扯鈴從傳統技藝轉化為受國際認可的競技運動。",
+    "grading.pillar.1.title": "十四年的累積",
+    "grading.pillar.1.body": "循序漸進的學習路徑與可量化標準，全面評估各級別與段位的技術能力。",
+    "grading.pillar.2.title": "完整的專業生態",
+    "grading.pillar.2.body": "培訓合格檢定員，為教練與學員提供清晰的職涯發展路徑，讓運動得以長期發展。",
+    "grading.pillar.3.title": "成效有據可查",
+    "grading.pillar.3.body": "台灣與馬來西亞的實施數據證明了本系統的成果與可持續運作。",
+    "grading.pillar.4.title": "誠邀合作夥伴",
+    "grading.pillar.4.body": "透過授權與合作統一教學方式，歡迎更多協會加入這項使命。",
     "grading.events.title": "活動",
     "grading.events.subtitle": "已舉辦及即將舉辦的級位檢定活動",
     "grading.album": "查看相簿",
@@ -242,8 +266,8 @@ const MEMBERS = [
   { logo: "assets/logos/zj-jinhua.webp",    name: { en: "Jinhua Diabolo Sports Association, Zhejiang", "zh-CN": "浙江省金华市空竹运动协会", "zh-TW": "浙江省金華市空竹運動協會" } },
   { logo: "assets/logos/sc-sichuan.webp",   name: { en: "Sichuan Diabolo Sports Association",          "zh-CN": "四川省空竹运动协会",         "zh-TW": "四川省空竹運動協會" } },
   { logo: "assets/logos/sc-chengdu.webp",   name: { en: "Chengdu Diabolo Sports Association, Sichuan", "zh-CN": "四川省成都市空竹运动协会",   "zh-TW": "四川省成都市空竹運動協會" } },
-  { logo: "assets/logos/js-rudong.png",     name: { en: "Rudong Diabolo Sports Association, Jiangsu",  "zh-CN": "江苏省南通市如东县空竹运动协会","zh-TW": "江蘇省南通市如東縣空竹運動協會" } },
-  { logo: "assets/logos/js-changshu.png",   name: { en: "Changshu Diabolo Sports Association, Jiangsu","zh-CN": "江苏省常熟市空竹运动协会",   "zh-TW": "江蘇省常熟市空竹運動協會" } },
+  { logo: "assets/logos/js-rudong.webp",    name: { en: "Rudong Diabolo Sports Association, Jiangsu",  "zh-CN": "江苏省南通市如东县空竹运动协会","zh-TW": "江蘇省南通市如東縣空竹運動協會" } },
+  { logo: "assets/logos/js-changshu.webp",  name: { en: "Changshu Diabolo Sports Association, Jiangsu","zh-CN": "江苏省常熟市空竹运动协会",   "zh-TW": "江蘇省常熟市空竹運動協會" } },
   { logo: "assets/logos/my-selangor.webp",  name: { en: "Selangor Diabolo Association",                "zh-CN": "雪兰莪州扯铃协会",           "zh-TW": "雪蘭莪州扯鈴協會" } },
   { logo: "assets/logos/my-kl.webp",        name: { en: "Kuala Lumpur Diabolo Association",            "zh-CN": "吉隆坡扯铃协会",             "zh-TW": "吉隆坡扯鈴協會" } },
   { logo: "assets/logos/my-sabah.webp",     name: { en: "Sabah Diabolo Association",                   "zh-CN": "沙巴扯铃协会",               "zh-TW": "沙巴扯鈴協會" } },
@@ -355,7 +379,7 @@ function renderShell(active) {
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="flex h-16 items-center justify-between gap-4">
           <a href="index.html" class="flex items-center gap-2 min-w-0">
-            <span class="inline-block h-8 w-8 rounded-full bg-gradient-to-br from-rose-500 to-amber-500"></span>
+            <img src="assets/logo.png" alt="" class="h-9 w-9 object-contain" />
             <span class="truncate text-sm font-semibold tracking-tight text-slate-900 sm:text-base" data-i18n="site.title"></span>
           </a>
 
