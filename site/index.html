@@ -6,6 +6,8 @@
 <title>International Diabolo Federation 国际扯铃联盟</title>
 <meta name="description" content="The International Diabolo Federation promotes the sport of Diabolo globally — uniting 15 associations across China, Malaysia, Taiwan, Japan and Macau." />
 <link rel="canonical" href="./index.html" />
+<link rel="icon" type="image/png" href="assets/favicon.png" />
+<link rel="apple-touch-icon" href="assets/favicon.png" />
 <meta property="og:title" content="International Diabolo Federation" />
 <meta property="og:description" content="Promoting the sport of Diabolo globally." />
 <meta property="og:type" content="website" />
@@ -28,13 +30,15 @@
   <!-- HERO -->
   <section class="relative overflow-hidden">
     <div id="hero-carousel" class="absolute inset-0"></div>
-    <div class="absolute inset-0 bg-gradient-to-b from-white/30 via-white/50 to-white"></div>
+    <!-- Readability scrim: darker on image, fading to white at the bottom -->
+    <div class="absolute inset-0 bg-gradient-to-b from-slate-900/70 via-slate-900/40 to-white"></div>
+    <div class="absolute inset-0 bg-gradient-to-r from-slate-900/30 via-transparent to-slate-900/30"></div>
     <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-28 sm:py-36 lg:py-48 text-center">
-      <p class="text-xs font-semibold uppercase tracking-[0.2em] text-rose-600 drop-shadow-sm">Est. 2016</p>
-      <h1 class="mt-3 text-4xl font-bold tracking-tight text-slate-900 sm:text-6xl drop-shadow-sm" data-i18n="hero.title"></h1>
-      <p class="mx-auto mt-5 max-w-2xl text-base text-slate-700 sm:text-lg" data-i18n="hero.tagline"></p>
+      <p class="text-xs font-semibold uppercase tracking-[0.2em] text-amber-300">Est. 2016</p>
+      <h1 class="mt-3 text-4xl font-bold tracking-tight text-white sm:text-6xl [text-shadow:0_2px_24px_rgba(0,0,0,0.45)]" data-i18n="hero.title"></h1>
+      <p class="mx-auto mt-5 max-w-2xl text-base text-white/90 sm:text-lg [text-shadow:0_1px_12px_rgba(0,0,0,0.5)]" data-i18n="hero.tagline"></p>
       <div class="mt-8">
-        <a href="#introduction" class="inline-flex items-center justify-center rounded-full bg-slate-900 px-6 py-3 text-sm font-medium text-white hover:bg-slate-700 transition" data-i18n="hero.cta"></a>
+        <a href="#introduction" class="inline-flex items-center justify-center rounded-full bg-white px-6 py-3 text-sm font-semibold text-slate-900 hover:bg-slate-100 transition shadow-lg" data-i18n="hero.cta"></a>
       </div>
     </div>
   </section>
