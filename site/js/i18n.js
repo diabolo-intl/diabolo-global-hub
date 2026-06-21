@@ -473,14 +473,17 @@ window.renderTournaments = function (lang) {
   const grid = document.getElementById("idt-grid");
   if (!grid) return;
   grid.innerHTML = TOURNAMENTS.map((tn) => `
-    <article class="overflow-hidden rounded-2xl border border-slate-100 bg-white transition hover:shadow-md">
-      <div class="relative aspect-[4/3] bg-gradient-to-br from-slate-100 to-slate-200">
-        <img src="assets/idt/${tn.id}/cover.jpg" alt="" class="h-full w-full object-cover" onerror="this.style.display='none'">
+    <article class="group overflow-hidden rounded-2xl border border-slate-100 bg-white transition hover:shadow-md ${tn.gallery && tn.gallery.length ? 'cursor-pointer' : ''}"
+             ${tn.gallery && tn.gallery.length ? `onclick="openAlbum('idt','${tn.id}', ${JSON.stringify(tn.gallery).replace(/"/g,'&quot;')}, '${(tn.title[lang]||tn.title.en).replace(/'/g,"\\'")}')"` : ''}>
+      <div class="relative aspect-[4/3] bg-gradient-to-br from-slate-100 to-slate-200 overflow-hidden">
+        <img src="assets/idt/${tn.id}/cover.jpg" alt="" class="h-full w-full object-cover transition duration-500 group-hover:scale-105" onerror="this.style.display='none'">
         <span class="absolute left-3 top-3 rounded-full bg-white/90 px-2.5 py-1 text-xs font-semibold tracking-wide text-slate-700">${tn.year} · ${tn.code}</span>
       </div>
       <div class="p-5">
         <h3 class="text-base font-semibold text-slate-900">${tn.title[lang] || tn.title.en}</h3>
-        <p class="mt-3 text-xs text-slate-400" data-i18n="idt.empty">${t("idt.empty", lang)}</p>
+        ${tn.gallery && tn.gallery.length
+          ? `<p class="mt-3 text-xs font-medium text-rose-600">${t("idt.album", lang)} →</p>`
+          : `<p class="mt-3 text-xs text-slate-400">${t("idt.empty", lang)}</p>`}
       </div>
     </article>
   `).join("");
@@ -490,17 +493,94 @@ window.renderGradingEvents = function (lang) {
   const grid = document.getElementById("grading-events-grid");
   if (!grid) return;
   grid.innerHTML = GRADING_EVENTS.map((ev) => `
-    <article class="overflow-hidden rounded-2xl border border-slate-100 bg-white transition hover:shadow-md">
-      <div class="relative aspect-[4/3] bg-gradient-to-br from-amber-50 to-rose-50">
-        <img src="assets/grading/${ev.id}/cover.jpg" alt="" class="h-full w-full object-cover" onerror="this.style.display='none'">
+    <article class="group overflow-hidden rounded-2xl border border-slate-100 bg-white transition hover:shadow-md ${ev.gallery && ev.gallery.length ? 'cursor-pointer' : ''}"
+             ${ev.gallery && ev.gallery.length ? `onclick="openAlbum('grading','${ev.id}', ${JSON.stringify(ev.gallery).replace(/"/g,'&quot;')}, '${(ev.title[lang]||ev.title.en).replace(/'/g,"\\'")}')"` : ''}>
+      <div class="relative aspect-[4/3] bg-gradient-to-br from-amber-50 to-rose-50 overflow-hidden">
+        <img src="assets/grading/${ev.id}/cover.jpg" alt="" class="h-full w-full object-cover transition duration-500 group-hover:scale-105" onerror="this.style.display='none'">
         <span class="absolute left-3 top-3 rounded-full bg-white/90 px-2.5 py-1 text-xs font-semibold text-slate-700">${ev.date}</span>
       </div>
       <div class="p-5">
         <h3 class="text-base font-semibold leading-snug text-slate-900">${ev.title[lang] || ev.title.en}</h3>
-        <p class="mt-3 text-xs text-slate-400" data-i18n="idt.empty">${t("idt.empty", lang)}</p>
+        ${ev.gallery && ev.gallery.length
+          ? `<p class="mt-3 text-xs font-medium text-rose-600">${t("grading.album", lang)} →</p>`
+          : `<p class="mt-3 text-xs text-slate-400">${t("idt.empty", lang)}</p>`}
       </div>
     </article>
   `).join("");
+};
+
+// ---------------------------------------------------------------------------
+// Album lightbox
+// ---------------------------------------------------------------------------
+window.openAlbum = function (kind, id, files, title) {
+  let idx = 0;
+  const overlay = document.createElement("div");
+  overlay.className = "fixed inset-0 z-50 flex flex-col bg-slate-950/95 backdrop-blur";
+  overlay.innerHTML = `
+    <div class="flex items-center justify-between px-4 py-3 text-white">
+      <p class="truncate text-sm font-medium">${title}</p>
+      <button id="album-close" class="rounded-md p-2 hover:bg-white/10" aria-label="Close">
+        <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 6l12 12M6 18L18 6"/></svg>
+      </button>
+    </div>
+    <div class="relative flex flex-1 items-center justify-center px-4 pb-4">
+      <button id="album-prev" class="absolute left-2 top-1/2 -translate-y-1/2 rounded-full bg-white/10 p-2 text-white hover:bg-white/20" aria-label="Previous">
+        <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
+      </button>
+      <img id="album-img" src="" alt="" class="max-h-full max-w-full rounded-lg object-contain shadow-2xl">
+      <button id="album-next" class="absolute right-2 top-1/2 -translate-y-1/2 rounded-full bg-white/10 p-2 text-white hover:bg-white/20" aria-label="Next">
+        <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+      </button>
+      <p id="album-count" class="absolute bottom-2 left-1/2 -translate-x-1/2 rounded-full bg-white/10 px-3 py-1 text-xs text-white"></p>
+    </div>`;
+  document.body.appendChild(overlay);
+  document.body.style.overflow = "hidden";
+
+  const img = overlay.querySelector("#album-img");
+  const count = overlay.querySelector("#album-count");
+  const show = () => {
+    img.src = `assets/${kind}/${id}/${files[idx]}`;
+    count.textContent = `${idx + 1} / ${files.length}`;
+  };
+  const close = () => { overlay.remove(); document.body.style.overflow = ""; document.removeEventListener("keydown", onKey); };
+  const onKey = (e) => {
+    if (e.key === "Escape") close();
+    else if (e.key === "ArrowLeft") { idx = (idx - 1 + files.length) % files.length; show(); }
+    else if (e.key === "ArrowRight") { idx = (idx + 1) % files.length; show(); }
+  };
+  overlay.querySelector("#album-close").onclick = close;
+  overlay.querySelector("#album-prev").onclick = (e) => { e.stopPropagation(); idx = (idx - 1 + files.length) % files.length; show(); };
+  overlay.querySelector("#album-next").onclick = (e) => { e.stopPropagation(); idx = (idx + 1) % files.length; show(); };
+  overlay.addEventListener("click", (e) => { if (e.target === overlay) close(); });
+  document.addEventListener("keydown", onKey);
+  show();
+};
+
+// ---------------------------------------------------------------------------
+// Hero carousel (home page)
+// ---------------------------------------------------------------------------
+window.initHeroCarousel = function (slides, interval = 5500) {
+  const root = document.getElementById("hero-carousel");
+  if (!root) return;
+  root.innerHTML = slides.map((src, i) => `
+    <img src="${src}" alt="" data-slide="${i}"
+         class="absolute inset-0 h-full w-full object-cover transition-opacity duration-1000 ${i === 0 ? 'opacity-100' : 'opacity-0'}">
+  `).join("") + `
+    <div class="absolute bottom-4 left-1/2 z-10 -translate-x-1/2 flex gap-1.5">
+      ${slides.map((_, i) => `<button type="button" data-dot="${i}" class="h-1.5 w-6 rounded-full bg-white/50 hover:bg-white/80 transition" aria-label="Slide ${i + 1}"></button>`).join("")}
+    </div>`;
+  let cur = 0;
+  const imgs = root.querySelectorAll("[data-slide]");
+  const dots = root.querySelectorAll("[data-dot]");
+  const go = (n) => {
+    imgs[cur].classList.replace("opacity-100", "opacity-0");
+    dots[cur].classList.replace("bg-white", "bg-white/50");
+    cur = (n + slides.length) % slides.length;
+    imgs[cur].classList.replace("opacity-0", "opacity-100");
+    dots[cur].classList.add("bg-white");
+  };
+  dots.forEach((d, i) => d.addEventListener("click", () => go(i)));
+  setInterval(() => go(cur + 1), interval);
 };
 
 // ---------------------------------------------------------------------------
