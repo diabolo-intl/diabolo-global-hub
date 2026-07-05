@@ -181,6 +181,7 @@ const I18N = {
     "nav.news": "最新消息",
     "nav.idt": "國際扯鈴大賽",
     "nav.grading": "級位檢定",
+    "nav.live": "活動消息",
 
     "hero.title": "國際扯鈴聯盟",
     "hero.tagline": "自 2016 年起，連結全球扯鈴社群",
