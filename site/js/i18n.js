@@ -11,6 +11,7 @@ const I18N = {
     "nav.news": "News",
     "nav.idt": "IDT",
     "nav.grading": "Grading",
+    "nav.live": "Live Events",
 
     "hero.title": "International Diabolo Federation",
     "hero.tagline": "Uniting the global Diabolo community since 2016",
