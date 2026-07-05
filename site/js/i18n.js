@@ -447,6 +447,14 @@ function navLink(href, key, isActive, mobile = false) {
   return `<a href="${href}" class="${cls}" data-i18n="${key}"></a>`;
 }
 
+function extLink(href, key, mobile = false) {
+  const base = mobile
+    ? "block rounded-md px-3 py-2 text-sm font-medium"
+    : "rounded-md px-3 py-2 text-sm font-medium";
+  const cls = `${base} text-rose-600 hover:text-rose-700 hover:bg-rose-50`;
+  return `<a href="${href}" class="${cls}" data-i18n="${key}" target="_blank" rel="noopener noreferrer"></a>`;
+}
+
 function langToggle() {
   const opt = (code, label) => `
     <button type="button" data-lang-btn="${code}" onclick="setLang('${code}')"
