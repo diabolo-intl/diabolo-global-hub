@@ -96,6 +96,7 @@ const I18N = {
     "nav.news": "最新消息",
     "nav.idt": "国际扯铃大赛",
     "nav.grading": "级位检定",
+    "nav.live": "活动消息",
 
     "hero.title": "国际扯铃联盟",
     "hero.tagline": "自 2016 年起，联合全球扯铃社群",
