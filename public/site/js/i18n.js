@@ -11,6 +11,7 @@ const I18N = {
     "nav.news": "News",
     "nav.idt": "IDT",
     "nav.grading": "Grading",
+    "nav.live": "Live Events",
 
     "hero.title": "International Diabolo Federation",
     "hero.tagline": "Uniting the global Diabolo community since 2016",
@@ -95,6 +96,7 @@ const I18N = {
     "nav.news": "最新消息",
     "nav.idt": "国际扯铃大赛",
     "nav.grading": "级位检定",
+    "nav.live": "活动消息",
 
     "hero.title": "国际扯铃联盟",
     "hero.tagline": "自 2016 年起，联合全球扯铃社群",
@@ -179,6 +181,7 @@ const I18N = {
     "nav.news": "最新消息",
     "nav.idt": "國際扯鈴大賽",
     "nav.grading": "級位檢定",
+    "nav.live": "活動消息",
 
     "hero.title": "國際扯鈴聯盟",
     "hero.tagline": "自 2016 年起，連結全球扯鈴社群",
@@ -388,6 +391,7 @@ function renderShell(active) {
             ${navLink("news.html",    "nav.news",    active === "news")}
             ${navLink("idt.html",     "nav.idt",     active === "idt")}
             ${navLink("grading.html", "nav.grading", active === "grading")}
+            ${extLink("https://linktr.ee/diabolo.idf", "nav.live")}
           </nav>
 
           <div class="flex items-center gap-2">
@@ -404,6 +408,7 @@ function renderShell(active) {
             ${navLink("news.html",    "nav.news",    active === "news",    true)}
             ${navLink("idt.html",     "nav.idt",     active === "idt",     true)}
             ${navLink("grading.html", "nav.grading", active === "grading", true)}
+            ${extLink("https://linktr.ee/diabolo.idf", "nav.live", true)}
           </div>
         </div>
       </div>
@@ -440,6 +445,14 @@ function navLink(href, key, isActive, mobile = false) {
     ? `${base} bg-slate-100 text-slate-900`
     : `${base} text-slate-600 hover:text-slate-900 hover:bg-slate-50`;
   return `<a href="${href}" class="${cls}" data-i18n="${key}"></a>`;
+}
+
+function extLink(href, key, mobile = false) {
+  const base = mobile
+    ? "block rounded-md px-3 py-2 text-sm font-medium"
+    : "rounded-md px-3 py-2 text-sm font-medium";
+  const cls = `${base} text-rose-600 hover:text-rose-700 hover:bg-rose-50`;
+  return `<a href="${href}" class="${cls}" data-i18n="${key}" target="_blank" rel="noopener noreferrer"></a>`;
 }
 
 function langToggle() {
