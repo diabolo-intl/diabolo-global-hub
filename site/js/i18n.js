@@ -391,6 +391,7 @@ function renderShell(active) {
             ${navLink("news.html",    "nav.news",    active === "news")}
             ${navLink("idt.html",     "nav.idt",     active === "idt")}
             ${navLink("grading.html", "nav.grading", active === "grading")}
+            ${extLink("https://linktr.ee/diabolo.idf", "nav.live")}
           </nav>
 
           <div class="flex items-center gap-2">
@@ -407,6 +408,7 @@ function renderShell(active) {
             ${navLink("news.html",    "nav.news",    active === "news",    true)}
             ${navLink("idt.html",     "nav.idt",     active === "idt",     true)}
             ${navLink("grading.html", "nav.grading", active === "grading", true)}
+            ${extLink("https://linktr.ee/diabolo.idf", "nav.live", true)}
           </div>
         </div>
       </div>
